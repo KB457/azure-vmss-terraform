@@ -4,7 +4,7 @@
 This project provisions Azure infrastructure using **Terraform**, following best practices for maintainability and scalability.  
 The setup includes:
 - Resource Group & Networking (VNet, Subnets, NSG, Public IPs)  
-- **Virtual Machine Scale Set (VMSS) with SSH access**  
+- **Virtual Machine Scale Set (VMSS)**  
 - **Azure Load Balancer** to optimise traffic distribution  
 - **Azure Monitor & Log Analytics** for real-time observability and alerts  
 
