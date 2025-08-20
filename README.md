@@ -23,7 +23,6 @@ AZURE-VMSS/
 ├── .tflint.hcl # TFLint configuration
 └── README.md # Project documentation
 
-
 ## ✅ Improvements Made
 To bring the code closer to production standards, I:
 1. Added **types** to all variables for stricter validation (`string`, `number`, `bool`, `list(string)` etc.).  
