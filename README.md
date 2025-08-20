@@ -10,18 +10,20 @@ The setup includes:
 
 ## 📂 Project Structure
 
+```plaintext
 AZURE-VMSS/
-├── main.tf # Root Terraform configuration
-├── variables.tf # Input variables
-├── output.tf # Outputs
-├── Modules/ # Modular approach
-│ ├── Network/ # VNet, Subnets, NSG, Public IP
-│ ├── Compute/ # VMSS configuration
-│ ├── ALB/ # Azure Load Balancer setup
-│ ├── Monitoring/ # Log Analytics, Alerts, Metrics
-│ └── health/ # Health probe configuration
-├── .tflint.hcl # TFLint configuration
-└── README.md # Project documentation
+├── main.tf          # Root Terraform configuration
+├── variables.tf     # Input variables
+├── output.tf        # Outputs
+├── Modules/         # Modular approach
+│   ├── Network/     # VNet, Subnets, NSG, Public IP
+│   ├── Compute/     # VMSS configuration
+│   ├── ALB/         # Azure Load Balancer setup
+│   ├── Monitoring/  # Log Analytics, Alerts, Metrics
+│   └── health/      # Health probe configuration
+├── .tflint.hcl      # TFLint configuration
+└── README.md        # Project documentation
+
 
 ## ✅ Improvements Made
 To bring the code closer to production standards, I:
